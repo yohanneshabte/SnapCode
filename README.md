@@ -1,4 +1,4 @@
-# SnapCode![rsz_21rsz_1sdushantha](https://user-images.githubusercontent.com/27065646/35917016-c85127f8-0c0c-11e8-8792-4bda0f8b232e.png)
+# ![rsz_21rsz_1sdushantha](https://user-images.githubusercontent.com/27065646/35917016-c85127f8-0c0c-11e8-8792-4bda0f8b232e.png)SnapCode
 Im still looking for a good name for this so feel free to suggest one :)
 
 ## Why?
