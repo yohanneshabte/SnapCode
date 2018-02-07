@@ -10,4 +10,4 @@ usage: snapcode.py [-h] [-v] -u USERNAME [-b {True,False}]
 ```
 The ```-b``` command lets you choose if you want Bitmoji face on the snapcode. If you put ```False```, the snapcode will just have the normal ghost.
 
-The file will download to the directory run the ```snapcode.py``` from.
+The file will download to the directory where you ran ```snapcode.py``` from.
