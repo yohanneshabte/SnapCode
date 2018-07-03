@@ -9,8 +9,8 @@ url = "https://app.snapchat.com/web/deeplink/snapcode?username={}&type={}&bitmoj
 def get_code(username, bitmoji_option):
 
 	if bitmoji_option == False:
-		
-		bitmoji_option = "disbale"
+
+		bitmoji_option = "disable"
 		filetype = "PNG"
 
 	else:
@@ -18,7 +18,7 @@ def get_code(username, bitmoji_option):
 		filetype = "SVG"
 
 	request_url = url.format(username, filetype, bitmoji_option)
-	
+
 	path = str(username)+"."+filetype.lower()
 
 	urllib.request.urlretrieve(request_url, path)
@@ -28,7 +28,7 @@ def get_code(username, bitmoji_option):
 def main():
 
 	parser = argparse.ArgumentParser(description = "A simple command-line tool to download SnapChat codes.")
-	
+
 	parser.add_argument("-v", "--version",
 		action='store_true',
 		help = "Get current version")
