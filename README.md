@@ -9,8 +9,8 @@ $ git clone https://github.com/sdushantha/SnapCode.git
 ```
 ## Usage
 ```bash
-usage: snapcode.py [-h] [-v] -u USERNAME [-b {True,False}]
+usage: snapcode.py [-h] [-b] username
 ```
-The ```-b``` command lets you choose if you want Bitmoji face on the snapcode. If you put ```False```, the snapcode will just have the normal ghost.
+The ```-b``` command lets you choose if you want Bitmoji on the SnapCode.
 
 The file will download to the directory where you ran ```snapcode.py``` from.
