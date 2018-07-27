@@ -5,7 +5,7 @@ I just found a way to download snapcodes with or without the Bitmoji on them and
 
 ## Installation
 ```
-$ git clone https://github.com/sdushantha/SnapCode.git
+git clone https://github.com/sdushantha/SnapCode.git
 ```
 ## Usage
 ```bash
