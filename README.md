@@ -8,7 +8,7 @@ I just found a way to download snapcodes with or without the Bitmoji on them and
 git clone https://github.com/sdushantha/SnapCode.git
 ```
 ## Usage
-```bash
+```
 usage: snapcode.py [-h] [-b] [-s SIZE] username
 
 A simple command-line tool to download SnapChat codes.
