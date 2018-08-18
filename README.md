@@ -9,7 +9,18 @@ git clone https://github.com/sdushantha/SnapCode.git
 ```
 ## Usage
 ```bash
-usage: snapcode.py [-h] [-b] username
+usage: snapcode.py [-h] [-b] [-s SIZE] username
+
+A simple command-line tool to download SnapChat codes.
+
+positional arguments:
+  username
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b, --bitmoji         SnapCode with Bitmoji
+  -s SIZE, --size SIZE  Size of the SnapCode (pixels)
+
 ```
 The ```-b``` command lets you choose if you want Bitmoji on the SnapCode.
 
